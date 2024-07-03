@@ -37,34 +37,3 @@
  * - Function alert(): https://www.w3schools.com/jsref/met_win_alert.asp
  * - Function prompt(): https://www.w3schools.com/jsref/met_win_prompt.asp
  */
-
-function beginner() {
-  let noun = prompt("Enter a noun");
-  let pluralNoun = prompt("Enter a plural noun:");
-  let verb = prompt("Enter a verb in the present tense:");
-
-  alert(
-    "Today, every student has a computer small enough to fit into his or her " +
-      noun +
-      ". A student can solve any math problem by simply pushing the computer's little " +
-      pluralNoun +
-      ". Computers can add, multiply, divide, and " +
-      verb +
-      "."
-  );
-}
-
-function experienced() {
-  let tasks = [];
-  let choice = "y";
-
-  while (choice.startsWith("y") || choice.startsWith("Y")) {
-    let task = prompt("Enter a task:");
-    tasks.push(task);
-    choice = prompt("Enter another?");
-  }
-
-  alert(`You entered ${tasks.length} tasks: ${tasks}`);
-}
-
-experienced();
