@@ -11,7 +11,7 @@
  * of writing a program to solve this problem. Mayra will be using your
  * program to play Madlibs, saving lots of paper.
  *
- * Mayra should be able to run your program and prompted to enter a noun (N),
+ * Mayra should be able to run your program and be prompted to enter a noun (N),
  * plural noun (PN), and a verb in the present tense (V). After Mayra enters
  * the words, alert her displaying the Madlib:
  *     "Today, every student has a computer small enough to fit into his or
@@ -37,3 +37,25 @@
  * - Function alert(): https://www.w3schools.com/jsref/met_win_alert.asp
  * - Function prompt(): https://www.w3schools.com/jsref/met_win_prompt.asp
  */
+
+function solution() {
+  let noun = prompt("Enter a noun");
+  let pluralNoun = prompt("Enter a plural noun");
+  let verb = prompt("Enter a verb in the present tense");
+
+  let madlib =
+    "Today, every student has a computer small enough to fit " +
+    "into his or her " +
+    noun +
+    ". A student can solve any math problem " +
+    "by simply pushing the computer's little " +
+    pluralNoun +
+    ". Computers can " +
+    "add, multiply, divide, and " +
+    verb +
+    ".";
+
+  alert(madlib);
+}
+
+solution();

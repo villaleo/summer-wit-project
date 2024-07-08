@@ -1,4 +1,17 @@
+:root {
+  --brown: rgb(132, 60, 33);
+  --purple: rgb(200, 0, 190);
+}
+
 #donation-banner {
-  background-color: brown;
+  background-color: var(--purple);
   color: white;
+}
+
+#navbar-logo img:first-child {
+  width: 50px;
+}
+
+#navbar-logo img:nth-child(2) {
+  width: 200px;
 }
