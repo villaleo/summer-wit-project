@@ -57,5 +57,3 @@ function solution() {
 
   alert(madlib);
 }
-
-solution();
