@@ -1,4 +1,12 @@
+/* Donation banner */
 #donation-banner {
   background-color: brown;
   color: white;
+}
+
+/* Value item image dimensions */
+.value-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
 }
